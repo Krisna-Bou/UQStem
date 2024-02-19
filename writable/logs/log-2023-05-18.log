@@ -1,0 +1,290 @@
+ERROR - 2023-05-18 08:05:05 --> mysqli_sql_exception: Unknown column 'username' in 'field list' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(42): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(26): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 08:05:05 --> Unknown column 'username' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(42): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(26): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 08:05:05 --> mysqli_sql_exception: Unknown column 'username' in 'field list' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(42): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(26): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 08:05:05 --> Unknown column 'username' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(42): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(26): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 08:05:08 --> mysqli_sql_exception: Unknown column 'username' in 'field list' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(42): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(26): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 08:05:08 --> Unknown column 'username' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(42): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(26): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 08:56:39 --> mysqli_sql_exception: Column 'username' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(42): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(26): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 08:56:39 --> Column 'username' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(42): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(26): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 08:57:09 --> Undefined variable $username
+in APPPATH/Controllers/Submit.php on line 26.
+ 1 APPPATH/Controllers/Submit.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 08:57:17 --> Undefined array key "uid"
+in APPPATH/Views/home.php on line 20.
+ 1 APPPATH/Views/home.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Post.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->csse2310()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 08:57:32 --> Undefined array key "uid"
+in APPPATH/Views/home.php on line 20.
+ 1 APPPATH/Views/home.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Post.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->csse2310()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 08:57:34 --> Undefined array key "uid"
+in APPPATH/Views/home.php on line 20.
+ 1 APPPATH/Views/home.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Post.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->csse2310()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 08:58:58 --> mysqli_sql_exception: Column 'uid' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Account.php(43): App\Models\Course_model->enroll()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Account->add_course()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 08:58:58 --> Column 'uid' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Account.php(43): App\Models\Course_model->enroll()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->add_course()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 09:00:30 --> mysqli_sql_exception: Column 'uid' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Account.php(43): App\Models\Course_model->enroll()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Account->add_course()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 09:00:30 --> Column 'uid' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Account.php(43): App\Models\Course_model->enroll()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->add_course()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 09:33:26 --> mysqli_sql_exception: Column 'uid' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Account.php(43): App\Models\Course_model->enroll()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Account->add_course()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 09:33:26 --> Column 'uid' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Account.php(43): App\Models\Course_model->enroll()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->add_course()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 09:33:48 --> mysqli_sql_exception: Column 'uid' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Account.php(43): App\Models\Course_model->enroll()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Account->add_course()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 09:33:48 --> Column 'uid' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Account.php(43): App\Models\Course_model->enroll()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->add_course()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 09:34:10 --> mysqli_sql_exception: Column 'uid' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Account.php(43): App\Models\Course_model->enroll()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Account->add_course()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 09:34:10 --> Column 'uid' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Account.php(43): App\Models\Course_model->enroll()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->add_course()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 11:57:24 --> mysqli_sql_exception: Column 'uid' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Account.php(43): App\Models\Course_model->enroll()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Account->add_course()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 11:57:24 --> Column 'uid' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Course_model.php(19): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Account.php(43): App\Models\Course_model->enroll()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->add_course()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:18:12 --> Trying to access array offset on value of type null
+in APPPATH/Models/User_model.php on line 22.
+ 1 APPPATH/Models/User_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(44): App\Models\User_model->login()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 16:07:18 --> Trying to access array offset on value of type null
+in APPPATH/Models/User_model.php on line 37.
+ 1 APPPATH/Models/User_model.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(43): App\Models\User_model->secrets()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_secret()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 16:15:31 --> Undefined variable $username
+in APPPATH/Controllers/Login.php on line 49.
+ 1 APPPATH/Controllers/Login.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_secret()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 16:17:31 --> Undefined array key "email"
+in APPPATH/Controllers/Login.php on line 54.
+ 1 APPPATH/Controllers/Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_secret()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

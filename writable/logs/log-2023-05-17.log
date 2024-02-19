@@ -1,0 +1,213 @@
+CRITICAL - 2023-05-17 03:30:46 --> Undefined array key "cid"
+in APPPATH/Views/post.php on line 27.
+ 1 APPPATH/Views/post.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/post.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Post.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 03:31:02 --> Undefined array key "title"
+in APPPATH/Views/post.php on line 28.
+ 1 APPPATH/Views/post.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/post.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Post.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 03:39:51 --> Undefined variable $error
+in APPPATH/Views/post.php on line 50.
+ 1 APPPATH/Views/post.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/post.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Post.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 03:42:19 --> mysqli_sql_exception: Column 'email' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/User_model.php(46): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Register.php(24): App\Models\User_model->new_user()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 03:42:19 --> Column 'email' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(46): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(24): App\Models\User_model->new_user()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 05:28:38 --> Call to undefined function App\Controllers\view_post()
+in APPPATH/Controllers/Post.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->make_comment()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 05:30:54 --> Undefined variable $uid
+in APPPATH/Controllers/Post.php on line 69.
+ 1 APPPATH/Controllers/Post.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->make_comment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 05:31:11 --> Too few arguments to function App\Models\Comment_model::new_comment(), 4 passed in /var/www/htdocs/assignment/app/Controllers/Post.php on line 69 and exactly 5 expected
+in APPPATH/Models/Comment_model.php on line 9.
+ 1 APPPATH/Controllers/Post.php(69): App\Models\Comment_model->new_comment()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->make_comment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 06:24:09 --> Call to undefined function App\Controllers\hash_password()
+in APPPATH/Controllers/Register.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:41:56 --> Undefined variable $session
+in APPPATH/Controllers/Register.php on line 28.
+ 1 APPPATH/Controllers/Register.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:55:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH/Models/User_model.php on line 19.
+ 1 APPPATH/Controllers/Login.php(44): App\Models\User_model->login()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:56:11 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH/Models/User_model.php on line 19.
+ 1 APPPATH/Controllers/Login.php(44): App\Models\User_model->login()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:57:30 --> password_verify(): Argument #2 ($hash) must be of type string, array given
+in APPPATH/Models/User_model.php on line 19.
+ 1 APPPATH/Models/User_model.php(19): password_verify()
+ 2 APPPATH/Controllers/Login.php(44): App\Models\User_model->login()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 17:04:34 --> Undefined property: App\Controllers\Register::$form_validation
+in APPPATH/Controllers/Register.php on line 26.
+ 1 APPPATH/Controllers/Register.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 17:05:05 --> Undefined property: App\Controllers\Register::$load
+in APPPATH/Controllers/Register.php on line 26.
+ 1 APPPATH/Controllers/Register.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 17:11:58 --> Undefined variable $model
+in APPPATH/Models/User_model.php on line 57.
+ 1 APPPATH/Models/User_model.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(27): App\Models\User_model->new_user()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 17:24:14 --> Undefined variable $validationRules
+in APPPATH/Models/User_model.php on line 58.
+ 1 APPPATH/Models/User_model.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(27): App\Models\User_model->new_user()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 17:24:22 --> Undefined variable $validationRules
+in APPPATH/Models/User_model.php on line 58.
+ 1 APPPATH/Models/User_model.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(27): App\Models\User_model->new_user()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 17:24:41 --> Call to a member function run() on null
+in APPPATH/Models/User_model.php on line 58.
+ 1 APPPATH/Controllers/Register.php(27): App\Models\User_model->new_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 17:26:50 --> Call to a member function post() on null
+in APPPATH/Models/User_model.php on line 58.
+ 1 APPPATH/Controllers/Register.php(27): App\Models\User_model->new_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 17:39:05 --> mysqli_sql_exception: Duplicate entry 'Krisna' for key 'users.username' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/User_model.php(58): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Register.php(27): App\Models\User_model->new_user()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 17:39:05 --> Duplicate entry 'Krisna' for key 'users.username'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(58): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(27): App\Models\User_model->new_user()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 17:42:43 --> mysqli_sql_exception: Duplicate entry 'Krisna' for key 'users.username' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/User_model.php(48): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Register.php(42): App\Models\User_model->new_user()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 17:42:43 --> Duplicate entry 'Krisna' for key 'users.username'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(48): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(42): App\Models\User_model->new_user()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 17:43:08 --> Undefined variable $validate
+in APPPATH/Controllers/Register.php on line 43.
+ 1 APPPATH/Controllers/Register.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

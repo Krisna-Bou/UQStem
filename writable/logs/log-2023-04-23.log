@@ -1,0 +1,163 @@
+CRITICAL - 2023-04-23 12:11:31 --> Invalid file: "login/.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Login.php(11): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 12:30:24 --> mysqli_sql_exception: No database selected in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/app/Controllers/Login.php(25): App\Models\User_model->login()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 12:30:24 --> No database selected
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login.php(25): App\Models\User_model->login()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 12:30:29 --> mysqli_sql_exception: No database selected in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/app/Controllers/Login.php(25): App\Models\User_model->login()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 12:30:29 --> No database selected
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login.php(25): App\Models\User_model->login()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 12:31:47 --> mysqli_sql_exception: No database selected in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/app/Controllers/Login.php(25): App\Models\User_model->login()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 12:31:47 --> No database selected
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login.php(25): App\Models\User_model->login()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 12:32:10 --> mysqli_sql_exception: No database selected in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/app/Controllers/Login.php(25): App\Models\User_model->login()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 12:32:10 --> No database selected
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login.php(25): App\Models\User_model->login()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 12:34:03 --> mysqli_sql_exception: No database selected in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/app/Controllers/Login.php(27): App\Models\User_model->login()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 12:34:03 --> No database selected
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login.php(27): App\Models\User_model->login()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 12:34:33 --> mysqli_sql_exception: No database selected in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/app/Controllers/Login.php(27): App\Models\User_model->login()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 12:34:33 --> No database selected
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login.php(27): App\Models\User_model->login()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 12:35:32 --> mysqli_sql_exception: No database selected in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/app/Controllers/Login.php(27): App\Models\User_model->login()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 12:35:32 --> No database selected
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login.php(27): App\Models\User_model->login()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

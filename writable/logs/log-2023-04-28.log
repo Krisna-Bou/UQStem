@@ -1,0 +1,294 @@
+CRITICAL - 2023-04-28 01:38:40 --> Undefined variable $session
+in APPPATH/Controllers/ImageController.php on line 39.
+ 1 APPPATH/Controllers/ImageController.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ImageController->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 01:38:57 --> Undefined variable $cid
+in APPPATH/Views/account.php on line 50.
+ 1 APPPATH/Views/account.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/ImageController.php(56): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ImageController->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 01:39:09 --> Undefined variable $pid
+in APPPATH/Views/home.php on line 20.
+ 1 APPPATH/Views/home.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/ImageController.php(56): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ImageController->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 01:41:17 --> Undefined variable $session
+in APPPATH/Views/account.php on line 30.
+ 1 APPPATH/Views/account.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 01:42:08 --> syntax error, unexpected token ";"
+in APPPATH/Views/account.php on line 34.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Account.php(26): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 02:01:01 --> Undefined array key "filename"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 02:01:28 --> Undefined array key "profilepic"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 02:01:35 --> Undefined array key "profilepic"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 02:02:56 --> Undefined array key "filename"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 02:02:59 --> Undefined array key "filename"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 03:51:19 --> Undefined variable $imageModel
+in APPPATH/Controllers/Image.php on line 29.
+ 1 APPPATH/Controllers/Image.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 03:51:35 --> Undefined variable $image_model
+in APPPATH/Controllers/Image.php on line 29.
+ 1 APPPATH/Controllers/Image.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 03:51:51 --> Undefined variable $path
+in APPPATH/Models/Image_model.php on line 24.
+ 1 APPPATH/Models/Image_model.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Image.php(29): App\Models\ImageModel->resize()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 03:52:17 --> unable to open image `drip 2_4.PNG': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 24.
+ 1 APPPATH/Models/Image_model.php(24): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(29): App\Models\ImageModel->resize()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 03:53:15 --> unable to open image `/assignment/writable/uploads/drip 2_5.PNGdrip 2_5.PNG': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 24.
+ 1 APPPATH/Models/Image_model.php(24): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(29): App\Models\ImageModel->resize()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 03:53:34 --> unable to open image `/assignment/writable/uploads/drip 2_6.PNG': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 24.
+ 1 APPPATH/Models/Image_model.php(24): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(29): App\Models\ImageModel->resize()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:00:21 --> unable to open image `/var/www/htdocs/assignment/writable/uploads/assignment/writable/uploads/': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 24.
+ 1 APPPATH/Models/Image_model.php(24): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(29): App\Models\ImageModel->resize()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:01:05 --> unable to open image `/assignment/writable/uploads//assignment/writable/uploads/': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 24.
+ 1 APPPATH/Models/Image_model.php(24): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(29): App\Models\ImageModel->resize()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:02:37 --> unable to open image `/var/www/htdocs/assignment/writable/uploadsdrip 2_9.PNG': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Models/Image_model.php(11): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:02:39 --> unable to open image `/var/www/htdocs/assignment/writable/uploadsdrip 2_10.PNG': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Models/Image_model.php(11): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:03:06 --> unable to open image `/assignment/writable/uploads/drip 2_11.PNG': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Models/Image_model.php(11): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:03:19 --> unable to open image `/var/www/htdocs/assignment/writable/uploadsdrip 2_12.PNG': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Models/Image_model.php(11): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:06:55 --> unable to open image `/assignment/writable/uploads/3qh9metfzhn71_4.jpg': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Models/Image_model.php(11): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:07:23 --> unable to open image `/assignment/writable/uploads/3qh9metfzhn71_5.jpg': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Models/Image_model.php(11): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:07:30 --> unable to open image `/assignment/writable/uploads/IU.jpg': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Models/Image_model.php(11): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:08:07 --> mkdir(): Permission denied
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(176): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/Image.php(26): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:08:12 --> mkdir(): Permission denied
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(176): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/Image.php(26): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:10:56 --> mkdir(): Permission denied
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(176): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/Image.php(26): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:11:21 --> unable to open image `/assignment/writable/uploads/dw_1.jpg': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Models/Image_model.php(11): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(31): App\Models\ImageModel->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:11:48 --> unable to open image `assignment/writable/uploads/dw_2.jpg': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Models/Image_model.php(11): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(31): App\Models\ImageModel->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:12:31 --> unable to open image `assignment/writable/uploads/Dog.png': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Models/Image_model.php(11): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(31): App\Models\ImageModel->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:16:34 --> unable to open image `/assignment/writable/uploads//var/www/htdocs/assignment//writable/uploads/': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 24.
+ 1 APPPATH/Models/Image_model.php(24): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->resize()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:17:13 --> unable to open image `/var/www/htdocs/assignment//writable/uploads//var/www/htdocs/assignment//writable/uploads/': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 24.
+ 1 APPPATH/Models/Image_model.php(24): Imagick->__construct()
+ 2 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->resize()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:18:03 --> Imagick::resizeImage() expects at least 4 arguments, 2 given
+in APPPATH/Models/Image_model.php on line 25.
+ 1 APPPATH/Models/Image_model.php(25): Imagick->resizeImage()
+ 2 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->resize()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:19:33 --> Class "App\Models\Imagick" not found
+in APPPATH/Models/Image_model.php on line 25.
+ 1 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->resize()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:19:54 --> Undefined constant "App\Models\FILTER_BOX"
+in APPPATH/Models/Image_model.php on line 25.
+ 1 APPPATH/Controllers/Image.php(30): App\Models\ImageModel->resize()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

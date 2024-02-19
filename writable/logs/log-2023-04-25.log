@@ -1,0 +1,1417 @@
+CRITICAL - 2023-04-25 01:10:42 --> Undefined variable $username
+in APPPATH/Controllers/Account.php on line 13.
+ 1 APPPATH/Controllers/Account.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:11:04 --> Undefined variable $session
+in APPPATH/Views/account.php on line 13.
+ 1 APPPATH/Views/account.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:11:40 --> Cannot use object of type CodeIgniter\Session\Session as array
+in APPPATH/Views/account.php on line 14.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(18): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:15:23 --> Undefined variable $session
+in APPPATH/Controllers/Account.php on line 13.
+ 1 APPPATH/Controllers/Account.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:16:26 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 17
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(17): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:18:53 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(17): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:13 --> Call to a member function get() on array
+in APPPATH/Controllers/Account.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:28 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:36 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:36 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:43 --> Undefined variable $id
+in APPPATH/Controllers/Account.php on line 19.
+ 1 APPPATH/Controllers/Account.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:48 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:49 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:56 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:56 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:56 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:56 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:57 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:57 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:57 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:57 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:57 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:57 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:59 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:21:59 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/account.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(22): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:22:09 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:01 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:01 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:02 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:08 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:08 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:09 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:09 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:09 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:09 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:09 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:09 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:09 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:09 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:09 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:10 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:25 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Controllers/Account.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:29 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Controllers/Account.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:46 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Controllers/Account.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:49 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Controllers/Account.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:58 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:59 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:59 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:59 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:59 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:23:59 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:00 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:00 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:01 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:05 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:05 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:05 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:05 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:06 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:06 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:06 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:06 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:06 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:06 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:06 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:24:06 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:26:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Models/User_model.php on line 44.
+ 1 APPPATH/Controllers/Account.php(15): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:26:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Models/User_model.php on line 44.
+ 1 APPPATH/Controllers/Account.php(15): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:26:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Models/User_model.php on line 44.
+ 1 APPPATH/Controllers/Account.php(15): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:27:40 --> Call to undefined method App\Models\User_model::getRow
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Models/User_model.php(43): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/Account.php(15): App\Models\User_model->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:28:35 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:28:44 --> Call to a member function get() on array
+in APPPATH/Controllers/Account.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:30:33 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:30:36 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:30:37 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:30:37 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:30:37 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:30:37 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:30:37 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:30:51 --> Undefined variable $data
+in APPPATH/Controllers/Account.php on line 22.
+ 1 APPPATH/Controllers/Account.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:31:08 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:31:22 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:31:23 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:32:06 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:33:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+in APPPATH/Models/User_model.php on line 42.
+ 1 APPPATH/Controllers/Account.php(15): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:34:33 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 22
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:35:14 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Controllers/Account.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:38:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+in APPPATH/Models/User_model.php on line 42.
+ 1 APPPATH/Controllers/Account.php(15): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:39:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+in APPPATH/Models/User_model.php on line 42.
+ 1 APPPATH/Controllers/Account.php(15): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:45:50 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Controllers/Account.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:46:28 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Controllers/Account.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:47:38 --> Cannot use object of type mysqli as array
+in APPPATH/Models/User_model.php on line 46.
+ 1 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:47:48 --> Cannot use object of type mysqli as array
+in APPPATH/Models/User_model.php on line 46.
+ 1 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:49:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+in APPPATH/Models/User_model.php on line 47.
+ 1 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:50:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+in APPPATH/Models/User_model.php on line 47.
+ 1 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:50:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+in APPPATH/Models/User_model.php on line 47.
+ 1 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:51:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+in APPPATH/Models/User_model.php on line 47.
+ 1 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:55:05 --> Cannot use object of type mysqli as array
+in APPPATH/Models/User_model.php on line 60.
+ 1 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 01:56:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH/Models/User_model.php on line 59.
+ 1 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:00:27 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in /var/www/htdocs/assignment/app/Models/User_model.php on line 57
+in SYSTEMPATH/Database/BaseBuilder.php on line 1608.
+ 1 APPPATH/Models/User_model.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 2 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:01:33 --> Cannot use object of type mysqli as array
+in APPPATH/Models/User_model.php on line 60.
+ 1 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:01:53 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResultArray
+in APPPATH/Models/User_model.php on line 59.
+ 1 APPPATH/Models/User_model.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:02:20 --> Array to string conversion
+in APPPATH/Models/User_model.php on line 59.
+ 1 APPPATH/Models/User_model.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:04:13 --> Undefined variable $user
+in APPPATH/Views/account.php on line 13.
+ 1 APPPATH/Views/account.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:04:19 --> Undefined variable $user
+in APPPATH/Views/account.php on line 13.
+ 1 APPPATH/Views/account.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:04:25 --> Undefined variable $user
+in APPPATH/Views/account.php on line 13.
+ 1 APPPATH/Views/account.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:05:36 --> Undefined variable $user
+in APPPATH/Views/account.php on line 13.
+ 1 APPPATH/Views/account.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:07:15 --> Undefined variable $user
+in APPPATH/Views/account.php on line 13.
+ 1 APPPATH/Views/account.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:07:40 --> Undefined variable $id
+in APPPATH/Views/account.php on line 14.
+ 1 APPPATH/Views/account.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:08:07 --> Undefined variable $data
+in APPPATH/Views/account.php on line 14.
+ 1 APPPATH/Views/account.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:10:26 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:10:42 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:10:42 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:10:43 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:10:43 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:10:43 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:10:49 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:11:14 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:11:18 --> Undefined array key 1
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:11:21 --> Array to string conversion
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:11:47 --> Array to string conversion
+in APPPATH/Models/User_model.php on line 59.
+ 1 APPPATH/Models/User_model.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:11:53 --> Undefined array key "id"
+in APPPATH/Models/User_model.php on line 59.
+ 1 APPPATH/Models/User_model.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:11:54 --> Undefined array key "id"
+in APPPATH/Models/User_model.php on line 59.
+ 1 APPPATH/Models/User_model.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Account.php(14): App\Models\User_model->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:12:16 --> Undefined variable $results
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:12:17 --> Undefined variable $results
+in APPPATH/Controllers/Account.php on line 15.
+ 1 APPPATH/Controllers/Account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:12:21 --> Undefined array key "email"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:13:19 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 20
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(20): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:13:39 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/htdocs/assignment/app/Controllers/Account.php on line 20
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Account.php(20): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:14:25 --> Undefined variable $data
+in APPPATH/Views/account.php on line 15.
+ 1 APPPATH/Views/account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:15:36 --> Undefined variable $data
+in APPPATH/Views/account.php on line 15.
+ 1 APPPATH/Views/account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:15:37 --> Undefined variable $data
+in APPPATH/Views/account.php on line 15.
+ 1 APPPATH/Views/account.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/account.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:15:55 --> Undefined array key "email"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:16:09 --> Undefined array key "email"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:16:10 --> Undefined array key "email"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:16:11 --> Undefined array key "email"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:16:12 --> Undefined array key "email"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:16:26 --> Undefined array key "email"
+in APPPATH/Controllers/Account.php on line 17.
+ 1 APPPATH/Controllers/Account.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:18:32 --> Cannot use object of type CodeIgniter\Session\Session as array
+in APPPATH/Views/account.php on line 15.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 02:18:32 --> Cannot use object of type CodeIgniter\Session\Session as array
+in APPPATH/Views/account.php on line 15.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 11:06:25 --> Undefined variable $error
+in APPPATH/Views/new.php on line 28.
+ 1 APPPATH/Views/new.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/new.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Post.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 11:15:07 --> Undefined array key "id"
+in APPPATH/Controllers/Account.php on line 16.
+ 1 APPPATH/Controllers/Account.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 11:25:25 --> Invalid file: "new.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Submit.php(10): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 11:26:35 --> Undefined variable $email
+in APPPATH/Controllers/Submit.php on line 20.
+ 1 APPPATH/Controllers/Submit.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 11:27:16 --> Undefined variable $email
+in APPPATH/Controllers/Submit.php on line 20.
+ 1 APPPATH/Controllers/Submit.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-25 11:31:54 --> mysqli_sql_exception: Column 'title' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->index()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-25 11:31:54 --> Column 'title' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-25 11:32:01 --> mysqli_sql_exception: Column 'title' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->index()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-25 11:32:01 --> Column 'title' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-25 11:32:45 --> mysqli_sql_exception: Column 'title' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->index()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-25 11:32:45 --> Column 'title' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-25 11:33:20 --> mysqli_sql_exception: Column 'title' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->index()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-25 11:33:20 --> Column 'title' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-25 11:34:49 --> mysqli_sql_exception: Column 'title' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->index()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-25 11:34:49 --> Column 'title' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-25 11:35:08 --> mysqli_sql_exception: Column 'title' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->index()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-25 11:35:08 --> Column 'title' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(21): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 11:35:49 --> Undefined variable $title
+in APPPATH/Controllers/Submit.php on line 18.
+ 1 APPPATH/Controllers/Submit.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-25 11:35:55 --> mysqli_sql_exception: Column 'title' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(18): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->index()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-25 11:35:55 --> Column 'title' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(18): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-25 11:38:16 --> mysqli_sql_exception: Column 'uid' cannot be null in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Submit.php(24): App\Models\Post_model->new_post()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-25 11:38:16 --> Column 'uid' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Post_model.php(23): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Submit.php(24): App\Models\Post_model->new_post()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 13:20:45 --> Class "App\Controllers\Client" not found
+in APPPATH/Controllers/Login.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:05:57 --> syntax error, unexpected token "use"
+in APPPATH/Controllers/Login.php on line 60.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:06:09 --> require_once(/path/to/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 58.
+ 1 APPPATH/Controllers/Login.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(58): require_once()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:06:54 --> syntax error, unexpected token "use"
+in APPPATH/Controllers/Login.php on line 60.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:07:00 --> require_once(/assignment/app/Config/Autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 58.
+ 1 APPPATH/Controllers/Login.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(58): require_once()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:07:11 --> require_once(/app/Config/Autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 58.
+ 1 APPPATH/Controllers/Login.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(58): require_once()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:07:20 --> require_once(assignment/app/Config/Autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 58.
+ 1 APPPATH/Controllers/Login.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(58): require_once()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:07:41 --> Class "App\Controllers\Client" not found
+in APPPATH/Controllers/Login.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:09:01 --> syntax error, unexpected token "use"
+in APPPATH/Controllers/Login.php on line 60.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:22:09 --> require_once(/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Views/notification.php on line 2.
+ 1 APPPATH/Views/notification.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/notification.php(2): require_once()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/notification.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Notification.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Notification->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:22:54 --> require_once(/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Views/notification.php on line 2.
+ 1 APPPATH/Views/notification.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/notification.php(2): require_once()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/notification.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Notification.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Notification->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:23:20 --> Credentials are required to create a Client
+in VENDORPATH/twilio/sdk/src/Twilio/Base/BaseClient.php on line 70.
+ 1 APPPATH/Views/notification.php(8): Twilio\Base\BaseClient->__construct()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/notification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Notification.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Notification->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:47:48 --> Invalid file: "course_head.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(10): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:48:07 --> Invalid file: "templatea/course_head.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(10): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

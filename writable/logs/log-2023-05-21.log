@@ -1,0 +1,838 @@
+CRITICAL - 2023-05-21 01:29:21 --> Class "App\Controllers\CI_Controller" not found
+in APPPATH/Controllers/Post.php on line 4.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:37:57 --> Undefined property: App\Controllers\Post::$load
+in APPPATH/Controllers/Post.php on line 51.
+ 1 APPPATH/Controllers/Post.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:38:31 --> Undefined property: App\Controllers\Post::$load
+in APPPATH/Controllers/Post.php on line 51.
+ 1 APPPATH/Controllers/Post.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:41:15 --> Undefined property: App\Controllers\Post::$load
+in APPPATH/Controllers/Post.php on line 51.
+ 1 APPPATH/Controllers/Post.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:41:33 --> Undefined property: App\Controllers\Post::$load
+in APPPATH/Controllers/Post.php on line 51.
+ 1 APPPATH/Controllers/Post.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:45:37 --> Call to a member function move() on null
+in APPPATH/Controllers/Image.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload_picture()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:50:14 --> Undefined property: App\Controllers\Post::$load
+in APPPATH/Controllers/Post.php on line 51.
+ 1 APPPATH/Controllers/Post.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:50:45 --> Call to a member function move() on null
+in APPPATH/Controllers/Post.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:50:54 --> Call to a member function move() on null
+in APPPATH/Controllers/Post.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:51:43 --> Undefined array key "image"
+in APPPATH/Controllers/Post.php on line 61.
+ 1 APPPATH/Controllers/Post.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:51:49 --> Undefined array key "image"
+in APPPATH/Controllers/Post.php on line 61.
+ 1 APPPATH/Controllers/Post.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:52:00 --> Undefined array key "image"
+in APPPATH/Controllers/Post.php on line 61.
+ 1 APPPATH/Controllers/Post.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:52:07 --> Undefined array key "image"
+in APPPATH/Controllers/Post.php on line 61.
+ 1 APPPATH/Controllers/Post.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:52:16 --> Undefined array key "image"
+in APPPATH/Controllers/Post.php on line 61.
+ 1 APPPATH/Controllers/Post.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:52:29 --> Undefined array key "image"
+in APPPATH/Controllers/Post.php on line 61.
+ 1 APPPATH/Controllers/Post.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:53:14 --> Undefined array key "image"
+in APPPATH/Controllers/Post.php on line 62.
+ 1 APPPATH/Controllers/Post.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:53:22 --> Call to a member function move() on array
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:53:38 --> Call to a member function getName() on array
+in APPPATH/Controllers/Post.php on line 63.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:54:30 --> Call to a member function move() on array
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:57:22 --> Call to a member function move() on array
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:57:42 --> Undefined array key 0
+in APPPATH/Controllers/Post.php on line 61.
+ 1 APPPATH/Controllers/Post.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:57:48 --> Undefined array key 0
+in APPPATH/Controllers/Post.php on line 61.
+ 1 APPPATH/Controllers/Post.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:57:58 --> Undefined array key "image"
+in APPPATH/Controllers/Post.php on line 61.
+ 1 APPPATH/Controllers/Post.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 01:58:30 --> Call to a member function move() on string
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:00:45 --> Call to a member function move() on string
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:01:19 --> Call to a member function move() on string
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:01:29 --> Call to a member function move() on string
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:01:36 --> Call to a member function move() on string
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:01:47 --> Call to a member function copy() on string
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:04:03 --> Call to a member function move_uploaded_file() on string
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:04:10 --> Call to a member function move_uploaded_file() on array
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:04:21 --> Call to a member function move_uploaded_file() on array
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:04:38 --> Call to a member function move_uploaded_file() on array
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:05:07 --> Call to a member function move_uploaded_file() on array
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:05:19 --> Call to a member function move_uploaded_file() on array
+in APPPATH/Controllers/Post.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:06:30 --> move_uploaded_file(): Argument #1 ($from) must be of type string, array given
+in APPPATH/Controllers/Post.php on line 62.
+ 1 APPPATH/Controllers/Post.php(62): move_uploaded_file()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:10:42 --> Undefined variable $error
+in APPPATH/Views/register.php on line 25.
+ 1 APPPATH/Views/register.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:11:25 --> Undefined variable $error
+in APPPATH/Views/register.php on line 25.
+ 1 APPPATH/Views/register.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:11:48 --> Undefined variable $error
+in APPPATH/Views/register.php on line 25.
+ 1 APPPATH/Views/register.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:13:00 --> Undefined variable $error
+in APPPATH/Views/register.php on line 25.
+ 1 APPPATH/Views/register.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 02:13:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-05-21 02:13:32 --> Invalid email address: "SamSamSamSam"
+220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sun, 21 May 2023 12:13:32 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-2c891e8b.zones.eait.uq.edu.au [172.23.83.181], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <k.bou@uqconnect.edu.au>... Sender ok
+
+to: 550 5.1.1 <SamSamSamSam>... User unknown
+
+The following SMTP error was encountered: 550 5.1.1 <SamSamSamSam>... User unknown
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+CRITICAL - 2023-05-21 02:13:41 --> Undefined variable $error
+in APPPATH/Views/register.php on line 25.
+ 1 APPPATH/Views/register.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:17:04 --> Undefined variable $file
+in APPPATH/Controllers/Post.php on line 43.
+ 1 APPPATH/Controllers/Post.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:17:10 --> Undefined variable $file
+in APPPATH/Controllers/Post.php on line 43.
+ 1 APPPATH/Controllers/Post.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:18:02 --> Undefined variable $file
+in APPPATH/Controllers/Post.php on line 43.
+ 1 APPPATH/Controllers/Post.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:19:29 --> Undefined variable $file
+in APPPATH/Controllers/Post.php on line 43.
+ 1 APPPATH/Controllers/Post.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:19:39 --> Call to a member function move() on string
+in APPPATH/Controllers/Post.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:20:17 --> Call to a member function move() on string
+in APPPATH/Controllers/Post.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:20:29 --> Undefined variable $file
+in APPPATH/Controllers/Post.php on line 44.
+ 1 APPPATH/Controllers/Post.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:32:32 --> Undefined array key 0
+in APPPATH/Controllers/Post.php on line 67.
+ 1 APPPATH/Controllers/Post.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:32:50 --> Undefined array key 0
+in APPPATH/Controllers/Post.php on line 67.
+ 1 APPPATH/Controllers/Post.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:33:13 --> Undefined array key 0
+in APPPATH/Controllers/Post.php on line 67.
+ 1 APPPATH/Controllers/Post.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:33:16 --> Undefined array key "image"
+in APPPATH/Controllers/Post.php on line 67.
+ 1 APPPATH/Controllers/Post.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:33:28 --> Undefined array key 0
+in APPPATH/Controllers/Post.php on line 67.
+ 1 APPPATH/Controllers/Post.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:34:45 --> Undefined array key 0
+in APPPATH/Controllers/Post.php on line 67.
+ 1 APPPATH/Controllers/Post.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:34:48 --> Undefined array key 0
+in APPPATH/Controllers/Post.php on line 67.
+ 1 APPPATH/Controllers/Post.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:43:45 --> Call to a member function move() on array
+in APPPATH/Controllers/Post.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:44:34 --> Call to a member function move() on array
+in APPPATH/Controllers/Post.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:44:49 --> Call to a member function move() on string
+in APPPATH/Controllers/Post.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:45:29 --> Call to a member function move() on array
+in APPPATH/Controllers/Post.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:59:49 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Views/post.php on line 50.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Post.php(88): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:01:46 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH/Controllers/Post.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:13:54 --> Undefined variable $error
+in APPPATH/Views/register.php on line 25.
+ 1 APPPATH/Views/register.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(57): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 03:14:27 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-05-21 03:14:27 --> Invalid email address: "test"
+220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sun, 21 May 2023 13:14:27 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-2c891e8b.zones.eait.uq.edu.au [172.23.83.181], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <k.bou@uqconnect.edu.au>... Sender ok
+
+to: 550 5.1.1 <test>... User unknown
+
+The following SMTP error was encountered: 550 5.1.1 <test>... User unknown
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+CRITICAL - 2023-05-21 03:14:31 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/htdocs/assignment/app/Controllers/Register.php on line 54
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Register.php(54): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:15:00 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/htdocs/assignment/app/Controllers/Register.php on line 57
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Register.php(57): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:15:32 --> Array to string conversion
+in APPPATH/Views/register.php on line 25.
+ 1 APPPATH/Views/register.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(57): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:15:45 --> Undefined variable $error
+in APPPATH/Views/register.php on line 25.
+ 1 APPPATH/Views/register.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(56): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:16:12 --> Undefined variable $validationMessages
+in APPPATH/Views/register.php on line 25.
+ 1 APPPATH/Views/register.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(56): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:16:24 --> Undefined variable $validationMessages
+in APPPATH/Views/register.php on line 25.
+ 1 APPPATH/Views/register.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(57): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 03:18:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-05-21 03:18:38 --> Invalid email address: "Heeeeee"
+220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sun, 21 May 2023 13:18:38 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-2c891e8b.zones.eait.uq.edu.au [172.23.83.181], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <k.bou@uqconnect.edu.au>... Sender ok
+
+to: 550 5.1.1 <Heeeeee>... User unknown
+
+The following SMTP error was encountered: 550 5.1.1 <Heeeeee>... User unknown
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+CRITICAL - 2023-05-21 03:35:12 --> Undefined array key 0
+in APPPATH/Controllers/Post.php on line 56.
+ 1 APPPATH/Controllers/Post.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Post->view_post()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:50:26 --> Call to undefined function App\Controllers\get()
+in APPPATH/Controllers/Account.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:56:29 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:56:35 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:56:36 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:56:36 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:56:36 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:56:37 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:56:37 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:57:12 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:58:10 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:58:11 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:58:11 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:58:11 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:58:12 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:58:12 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:58:29 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:59:10 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 73.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:59:10 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 73.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:59:11 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 73.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:59:20 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 73.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 03:59:22 --> Call to undefined function App\Controllers\alert()
+in APPPATH/Controllers/Account.php on line 73.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:01:57 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:01:58 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:01:58 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:02:47 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:02:49 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:04:57 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 84.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:07:58 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 85.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:07:59 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 85.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:07:59 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 85.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:07:59 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 85.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:08:34 --> Undefined array key "user"
+in APPPATH/Controllers/Account.php on line 97.
+ 1 APPPATH/Controllers/Account.php(97): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:08:35 --> Undefined array key "user"
+in APPPATH/Controllers/Account.php on line 97.
+ 1 APPPATH/Controllers/Account.php(97): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:08:35 --> Undefined array key "user"
+in APPPATH/Controllers/Account.php on line 97.
+ 1 APPPATH/Controllers/Account.php(97): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:09:26 --> Undefined array key "user"
+in APPPATH/Controllers/Account.php on line 97.
+ 1 APPPATH/Controllers/Account.php(97): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:09:30 --> Undefined array key "user"
+in APPPATH/Controllers/Account.php on line 97.
+ 1 APPPATH/Controllers/Account.php(97): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:10:02 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 103.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:10:02 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 103.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:10:02 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 103.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:10:03 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 103.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:10:03 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Account.php on line 103.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Account->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 05:32:11 --> Undefined variable $uid
+in APPPATH/Models/Post_model.php on line 65.
+ 1 APPPATH/Models/Post_model.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Submit.php(26): App\Models\Post_model->new_post()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 05:32:40 --> Undefined variable $uid
+in APPPATH/Models/Post_model.php on line 65.
+ 1 APPPATH/Models/Post_model.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Submit.php(26): App\Models\Post_model->new_post()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Submit->check_submit()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
